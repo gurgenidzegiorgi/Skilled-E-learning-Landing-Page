@@ -1,0 +1,230 @@
+body {
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  margin-top: 45px;
+  margin-bottom: 80px;
+}
+
+/* Reusables*/
+.course-box-width {
+  flex-basis: 350px;
+}
+
+.side-padding {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.button {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  border-radius: 28px;
+  border: none;
+  padding: 9px 21px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* ************ */
+
+/* Header */
+
+header {
+  margin-top: 16px;
+}
+
+.prior-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .button {
+  background: #13183f;
+}
+
+header button:hover {
+  background: #666ca3;
+  transition: all 0.3s ease;
+}
+
+/* ************ */
+
+footer {
+  padding: 36px 0;
+  background: #13183f;
+}
+
+footer .logo-title {
+  color: #fff;
+}
+
+footer button {
+  background: linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
+}
+
+footer button:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
+  transition: all 0.3s ease;
+}
+
+/* ************ */
+
+/* Website Logo */
+
+.logo-title {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 35px;
+  color: #13183f;
+}
+
+/* ************ */
+
+/* Main section */
+
+.main-section button {
+  padding: 16px 31px;
+  border-radius: 31.5px;
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+}
+
+.main-section button:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  transition: all 0.3s ease;
+}
+
+.main-title {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 50px;
+  color: #13183f;
+}
+
+.main-div {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.main-paragraph {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #83869a;
+}
+.main-div-content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 25px;
+}
+
+.main-img-div {
+  display: block;
+}
+
+.main-img-mobile {
+  width: 100%;
+}
+
+/* ************ */
+
+/* Course Section */
+
+.course-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+.course-box {
+  padding: 30px;
+  padding-top: 56px;
+  box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.05);
+  border-radius: 10px;
+  position: relative;
+}
+
+.course-title-div {
+  padding: 25px;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+}
+
+.course-title-div h3 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff;
+}
+
+.course-content-div img {
+  position: absolute;
+  top: -10%;
+}
+
+.course-content-div h5 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 25px;
+  color: #13183f;
+}
+.course-text {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #83869a;
+  margin: 16px 0 24px 0;
+}
+
+.course-link {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #f74780;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.course-link:hover {
+  color: #ffa7c3;
+  transition: all 0.3s ease;
+}
+
+/* ************ */
